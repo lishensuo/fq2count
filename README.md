@@ -134,12 +134,6 @@ gtf_path=$(refgenie seek hg38/gencode_gtf -c ~/refgenie/genome_config.yaml)
 - 批量比对
 
 ```shell
-work_path=/home/ssli/fq2count
-Trim_rRNA=0
-read_length=100
-threads=20
-hisat_index=$(refgenie seek hg38/hisat2_index -c ~/refgenie/genome_config.yaml)
-gtf_path=$(refgenie seek hg38/gencode_gtf -c ~/refgenie/genome_config.yaml)
 
 ${work_path}/scripts/BulkRNAseq.sh $work_path $Trim_rRNA $read_length \
 $threads $hisat_index $gtf_path
