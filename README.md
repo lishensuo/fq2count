@@ -1,5 +1,7 @@
 # fq2count
-a pipeline from bulk RNA-seq data to expresssion count matrix 
+- a pipeline from bulk RNA-seq data to expresssion count matrix 
+- 参考学习自：https://github.com/dongxuemin666/RNA-combine 加以自己的理解进一步整理
+- 支持基于Bulk RNAseq fastq数据的质控、比对、定量流程的集成化处理，具体使用方式参考如下。
 
 # 1、准备分析环境
 
