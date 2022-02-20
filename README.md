@@ -6,7 +6,8 @@ a pipeline from bulk RNA-seq data to expresssion count matrix
 ## 1.1 linux文件夹环境
 
 ```shell
-git clone https://gitee.com/li-shensuo/fq2count.git
+git clone https://github.com/lishensuo/fq2count.git
+# gitee备用(快)： git clone https://gitee.com/li-shensuo/fq2count.git
 tar -xvf fq2count.tar
 work_path=/home/ssli/rnaseq/fq2count
 cd $work_path
