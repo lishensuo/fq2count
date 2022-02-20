@@ -148,5 +148,15 @@ gtf_path=$(refgenie seek hg38/gencode_gtf -c ~/refgenie/genome_config.yaml)
 ${work_path}/scripts/BulkRNAseq.sh $work_path $Trim_rRNA $read_length \
 $threads $hisat_index $gtf_path
 
-head 
+head ${work_path}/4.count/expression_matrix.txt
+# Geneid ../3.align/SRR12720999_nsorted.bam ../3.align/SRR12721000_nsorted.bam ../3.align/SRR12721001_nsorted.bam
+# ENSG00000223972.5 0 0 0
+# ENSG00000227232.5 24 15 14
+# ENSG00000278267.1 12 5 8
+# ENSG00000243485.5 0 0 1
+# ENSG00000284332.1 0 0 0
+# ENSG00000237613.2 0 0 0
+# ENSG00000268020.3 0 0 0
+# ENSG00000240361.2 0 0 0
+# ENSG00000186092.6 0 0 0
 ```
