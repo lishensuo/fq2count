@@ -2,7 +2,7 @@
 - a pipeline from bulk RNA-seq data to expresssion count matrix 
 - 参考学习自：https://github.com/dongxuemin666/RNA-combine 加以自己的理解进一步整理
 - 支持基于Bulk RNAseq fastq数据的质控、比对、定量流程的集成化处理，具体使用方式参考如下。
-
+![pipeline.png](https://s6.jpg.cm/2022/02/20/LfLExt.png)
 # 1、准备分析环境
 
 ## 1.1 linux文件夹环境
