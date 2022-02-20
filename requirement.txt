@@ -3,4 +3,3 @@ bioconda::samtools==1.14
 bioconda::subread==2.0.1
 bioconda::refgenie==0.12.1
 bioconda::sra-tools==2.11.0
-hcc::aspera-cli==3.9.1
