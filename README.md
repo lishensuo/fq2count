@@ -13,6 +13,7 @@ work_path=/home/ssli/fq2count
 cd $work_path
 
 #为script脚本增加执行权限
+##前一个为批量比对的脚本文件；后四个为去除rRNA相关的脚本文件
 chmod u+x ${work_path}/scripts/BulkRNAseq.sh
 chmod u+x ${work_path}/scripts/indexdb_rna
 chmod u+x ${work_path}/scripts/merge-paired-reads.sh
@@ -33,6 +34,13 @@ mkdir ${work_path}/rrna_index
 ## 1.2 conda环境
 
 ```shell
+cat requirement.txt
+# bioconda::samtools==1.14
+# bioconda::subread==2.0.1
+# bioconda::refgenie==0.12.1
+# bioconda::sra-tools==2.11.0
+# bioconda::hisat2==2.2.1
+
 conda create -n fq2count -y
 conda activate fq2count
 conda install -c conda-forge mamba -y
